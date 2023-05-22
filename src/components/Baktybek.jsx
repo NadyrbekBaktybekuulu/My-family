@@ -8,3 +8,5 @@ const Baktybek = () => {
       </div>
    )
 };
+
+export default Baktybek;

@@ -1,5 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Aydana from './components/Aydana';
+import Ayperi from './components/Ayperi';
+import Baktybek from './components/Baktybek';
+import Jamiyla from './components/Jamiyla';
+import Kurmangazy from './components/Kurmangazy';
+import Nadyrbek from './components/Nadyrbek';
 
 const App = () => {
   return (
@@ -8,14 +13,12 @@ const App = () => {
         <img src="logo192.png"/>
       </div>
       <nav className="nav-menu">
-        <ul>
-          <li><a>Baktybek</a></li>
-          <li><a>Jamiyla</a></li>
-          <li><a>Ayperi</a></li>
-          <li><a>Nadyrbek</a></li>
-          <li><a>Aydana</a></li>
-          <li><a>Kurmangazy</a></li>
-        </ul>
+        <Baktybek />
+        <Jamiyla />
+        <Ayperi />
+        <Nadyrbek />
+        <Aydana />
+        <Kurmangazy />
       </nav>
     </div>
   );
