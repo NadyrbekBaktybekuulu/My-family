@@ -1,7 +1,9 @@
+import styles from "./Members.module.css";
+
 const Nadyrbek = () => {
    return (
-      <div className="user-card">
-         <h1 className="user-card-title">
+      <div className={styles.member_card}>
+         <h1 className={styles.card_title}>
             Baktybek uulu Nadyrbek
          </h1>
       </div>

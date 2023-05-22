@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/Header';
 import Aydana from './components/Aydana';
 import Ayperi from './components/Ayperi';
 import Baktybek from './components/Baktybek';
@@ -9,17 +10,15 @@ import Nadyrbek from './components/Nadyrbek';
 const App = () => {
   return (
     <div className="App">
-      <div>
-        <img src="logo192.png"/>
-      </div>
-      <nav className="nav-menu">
-        <Baktybek />
-        <Jamiyla />
-        <Ayperi />
-        <Nadyrbek />
-        <Aydana />
-        <Kurmangazy />
-      </nav>
+      <Header />
+
+      <Baktybek />
+      <Jamiyla />
+      <Ayperi />
+      <Nadyrbek />
+      <Aydana />
+      <Kurmangazy />
+
     </div>
   );
 }
